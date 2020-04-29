@@ -1,0 +1,7 @@
+server:
+  port: 9060
+uos:
+  id: ${UOS_ID}
+spring:
+  codec:
+    max-in-memory-size: ${MAX_IN_MEMORY_SIZE}

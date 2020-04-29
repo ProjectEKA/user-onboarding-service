@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hiu:
+    image: "ganesan92/user-onboarding-service:${CM_USER_ONBOARDING}"
+    ports:
+      - "9060:8080"

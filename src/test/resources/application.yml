@@ -1,0 +1,7 @@
+server:
+  port: 9060
+uos:
+  id: CM_USER_ONBOARDING_SERVICE
+spring:
+  codec:
+    max-in-memory-size: 500MB
