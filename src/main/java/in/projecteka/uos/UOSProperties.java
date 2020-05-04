@@ -13,6 +13,5 @@ import org.springframework.context.annotation.Configuration;
 @Getter
 @Setter
 @NoArgsConstructor(access = AccessLevel.PACKAGE)
-@AllArgsConstructor
 public class UOSProperties {
 }

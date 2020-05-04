@@ -12,7 +12,7 @@ tags:
   - name: account
 
 paths:
-  /account/login:
+  /sessions:
     post:
       tags:
         - account
@@ -91,12 +91,6 @@ components:
         tokenType:
           type: string
           example: bearer
-        role:
-          type: string
-          example: super_admin/admin/lab_assistant
-        labId:
-          type: string
-          example: 100043
 
     ErrorResponse:
       type: object
