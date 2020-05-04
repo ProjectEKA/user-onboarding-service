@@ -1,7 +1,16 @@
 server:
   port: 9060
+
 uos:
   id: CM_USER_ONBOARDING_SERVICE
+  keycloak:
+    baseUrl: http://localhost:9001/auth
+    clientId: uos-service
+    clientSecret: 75ab5d05-3422-43ff-ba85-11f442aa22cf
+    jwkUrl: http://localhost:9001/auth/realms/Uos-manager/protocol/openid-connect/certs
+    issuer: http://localhost:9001/auth/realms/Uos-manager
+
 spring:
   codec:
     max-in-memory-size: 500MB
+
